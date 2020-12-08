@@ -65,23 +65,10 @@
             <div class="primary col-md-8 col-sm-12 col-xs-12">
                 
     		
-		  <section class="experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">Latest News</h2>
-                        <div class="content">
-			    <div class="item">
-                              <h3 class="title"> 1 papers is accpted by blabla.
-                            </div><!--//item-->
-                            
-			    
-                            
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
 
 		<section class="publications section">
                     <div class="section-inner">
-                        <h2 class="heading">Conferences</h2>
+                        <h2 class="heading">Publications</h2>
                         <div class="content">
 
 
@@ -106,62 +93,7 @@
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
 
-                <section class="publications section">
-                    <div class="section-inner">
-                        <h2 class="heading">Journals</h2>
-                        <div class="content">
-                            <div class="item">
 
-                        <!-- CVIU -->
-                        <div class="item">
-                                <h3 class="title">Controlling biases and diversity in diverse image-to-image translation</h3>
-                                <!--<h3 class="desc"> <a href="https://arxiv.org/pdf/1907.09754.pdf"> [PDF] </a> <a href="https://arxiv.org/pdf/1907.09754.pdf"> [Code] </a> </h3> -->
-                                <ul class="social list-inline">
-                                        <li><a href="https://arxiv.org/pdf/1907.09754.pdf"><i class="fa fa-file-pdf-o"></i></a></li>
-                                        <li><a href="https://arxiv.org/pdf/1907.09754.pdf"><i class="fa fa-github"></i></a></li>
-                                    </ul> 
-                                    
-                                <p class="authors"><strong>Authors:</strong>kai wang, Abel Gonzalez-Garcia, Luis Herranz, Joost van de Weijer</p>
-                                <p class="conference">CVIU</p>
-                                <p id="UNIT" class="abstract" style="display: none;"><strong>Abstract:</strong> The task of unpaired image-to-image translation is highly challenging due to the lack of explicit cross-domain pairs of instances.  We consider here diverse image translation (DIT), an even more challenging setting in which an image can have multiple plausible translations.  This is normally achieved by explicitly disentangling content and style in the latent representation and sampling different styles codes while maintaining the image content.  Despite the success of current DIT models, they are prone to suffer from bias.  In this paper, we study the problem of bias in image-to-image translation.  Biased datasets may add undesired changes (e.g. change gender or race in face images) to the output translations as a consequence of the particular underlying visual distribution in the target domain.  In order to alleviate the effects of this problem we propose the use of semantic constraints that enforce the preservation of desired image properties.  Our proposed model is a step towards unbiased diverse image-to-image translation (UDIT), and results in less unwanted changes in the translated images while still performing the wanted transformation.  Experiments on several heavily biased datasets show the effectiveness of the proposed techniques in different domains such as faces, objects, and scenes.</p>
-                                <p><a class="more-link" onclick="myFunction('UNIT')" href="javascript:void(0);"><i id="UNIT" class="fa fa-plus"></i> Find out more</a></p>
-                            </div><!--//item-->
-
-
-                            {% comment %} <!-- IJCV -->
-                            <div class="item">
-                                   <h3 class="title">Mix and match networks: cross-modal alignment for zero-pair image-to-image translation</h3> 
-                                   <!--<h3 class="desc"> <a href="https://arxiv.org/abs/1803.03095?context=cs"> [PDF]</a> <a href="https://github.com/xialeiliu/CrowdCountingCVPR18"> [Code] </a> </h3> -->
-                                   <ul class="social list-inline">
-                                        <li><a href="https://arxiv.org/pdf/1903.04294.pdf"><i class="fa fa-file-pdf-o"></i></a></li>
-                                        <li><a href="https://github.com/yaxingwang/Mix-and-match-networks"><i class="fa fa-github"></i></a></li>
-                                    </ul> 
-                                <p class="authors"><strong>Authors:</strong> kai wang, Joost van de Weijer, Luis Herranz</p>
-                                <p class="conference">IJCV</p>
-                                <p id="MMNet" class="abstract" style="display: none;"><strong>Abstract:</strong>This paper addresses the problem of infer-ring  unseen  cross-modal  image-to-image  translationsbetween multiple modalities. We assume that only someof the pairwise translations have been seen (i.e. trained)and  infer  the  remaining  unseen  translations  (wheretraining pairs are not available). We propose mix andmatch networks, an approach where multiple encodersand  decoders  are  aligned  in  such  a  way  that  the  de-sired translation can be obtained by simply cascadingthe source encoder and the target decoder, even whenthey have not interacted during the training stage (i.e.unseen).  The  main  challenge  lies  in  the  alignment  ofthe latent representations at the bottlenecks of encoder-decoder  pairs.  We  propose  an  architecture  with  sev-eral  tools  to  encourage  alignment,  including  autoen-coders  and  robust  side  information  and  latent  consis-tency losses. We show the benefits of our approach interms  of  effectiveness  and  scalability  compared  withother pairwise image-to-image translation approaches.We  also  propose  zero-pair  cross-modal  image  transla-tion,  a  challenging  setting  where  the  objective  is  in-ferring  semantic  segmentation  from  depth  (and  vice-versa)  without  explicit  segmentation-depth  pairs,  andonly from two (disjoint) segmentation-RGB and depth-RGB training sets. We observe that a certain part of theshared  information  between  unseen  modalities  mightnot be reachable, so we further propose a variant thatleverages  pseudo-pairs  which  allows  us  to  exploit  thisshared information between the unseen modalities.</p>
-                                <p><a class="more-link" onclick="myFunction('MMNet')" href="javascript:void(0);"><i id="liu2018leveraging" class="fa fa-plus"></i> Find out more</a></p>
-                            </div><!--//item--> {% endcomment %}
-
-
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-
-                <section class="projects section">
-                    <div class="section-inner">
-                        <h2 class="heading">Projects</h2>
-                        <div class="content">
-                            <div class="item">
-				<p class="type">M2CR</p>
-                                <h3 class="title"><a href="https://projets-lium.univ-lemans.fr/m2cr/">Multimodal Multilingual Continuous Representation for Human Language Understanding</a></h3>
-                                <p class="advisors"><strong>Organizators:</strong> Joost van de Weiger,  Loïc Barrault,  Yoshua Bengio</p>
-                                <p id="tfm" class="summary" style="display: none;"><strong>Abstract:</strong> This project is dedicated to the creation of a unified neural architecture for multimodal and multilingual human language understanding</p>
-                                <p><a class="more-link" onclick="myFunction('tfm')" href="javascript:void(0);"><i id="b_tfm" class="fa fa-plus"></i> Find out more</a></p>
-                            </div><!--//item-->
-                           
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
                 
                 <section class="experience section">
                     <div class="section-inner">
