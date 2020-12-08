@@ -88,35 +88,18 @@
 
                         <!-- ECCV2020 -->
                         <div class="item">
-                                <h3 class="title">bookworm continual learning</h3>
+                                <h3 class="title">Bookworm continual learning: beyond zero-shot learning and continual learning</h3>
                                 <!--<h3 class="desc"> <a href="https://arxiv.org/pdf/2003.02567.pdf"> [PDF] </a> <a href="https://arxiv.org/pdf/2003.02567.pdf"> [Code] </a> </h3> -->
                                 <ul class="social list-inline">
-                                        <li><a href="https://arxiv.org/pdf/2003.02567.pdf"><i class="fa fa-file-pdf-o"></i></a></li>
-                                        <li><a href="https://arxiv.org/pdf/2003.02567.pdf"><i class="fa fa-github"></i></a></li>
+                                        <li><a href="https://arxiv.org/abs/2006.15176"><i class="fa fa-file-pdf-o"></i></a></li>
+                                        <li><a href="https://arxiv.org/abs/2006.15176"><i class="fa fa-github"></i></a></li>
                                     </ul> 
                                     
-                                <p class="authors"><strong>Authors:</strong>Lei Kang, Pau Riba, kai wang, Marçal Rusiñol, Alicia Fornés, Mauricio Villegas</p>
-                                <p class="conference">ECCV2020</p>
-                                <p id="GANwriting" class="abstract" style="display: none;"><strong>Abstract:</strong> Although current image generation methods have reached impressive quality levels, they are still unable to produce plausible yet diverse images of handwritten words. On the contrary, when writing by hand, a great variability is observed across different writers, and even when analyzing words scribbled by the same individual, involuntary variations are conspicuous. In this work, we take a step closer to producing realistic and varied artificially rendered handwritten words. We propose a novel method that is able to produce credible handwritten word images by conditioning the generative process with both calligraphic style features and textual content. Our generator is guided by three complementary learning objectives: to produce realistic images, to imitate a certain handwriting style and to convey a specific textual content. Our model is unconstrained to any predefined vocabulary, being able to render whatever input word. Given a sample writer, it is also able to mimic its calligraphic features in a few-shot setup. We significantly advance over prior art and demonstrate with qualitative, quantitative and human-based evaluations the realistic aspect of our synthetically produced images.</p>
+                                <p class="authors"><strong>Authors:</strong>Kai Wang, Luis Herranz, Anjan Dutta, Joost van de Weijer</p>
+                                <p class="conference"> TASK-CV workshop at ECCV 2020 </p>
+                                <p id="GANwriting" class="abstract" style="display: none;"><strong>Abstract:</strong> We propose bookworm continual learning(BCL), a flexible setting where unseen classes can be inferred via a semantic model, and the visual model can be updated continually. Thus BCL generalizes both continual learning (CL) and zero-shot learning (ZSL). We also propose the bidirectional imagination (BImag) framework to address BCL where features of both past and future classes are generated. We observe that conditioning the feature generator on attributes can actually harm the continual learning ability, and propose two variants (joint class-attribute conditioning and asymmetric generation) to alleviate this problem.</p>
                                 <p><a class="more-link" onclick="myFunction('GANwriting')" href="javascript:void(0);"><i id="GANwriting" class="fa fa-plus"></i> Find out more</a></p>
                             </div><!--//item-->
-
-                        {% comment %} <!-- CVPR2020 -->
-                        <div class="item">
-                                <h3 class="title">Semi-supervised Learning for Few-shot Image-to-Image Translation</h3>
-                                <!--<h3 class="desc"> <a href="https://arxiv.org/pdf/2003.13853.pdf"> [PDF] </a> <a href="https://github.com/yaxingwang/SEMIT"> [Code] </a> </h3> -->
-                                <ul class="social list-inline">
-                                        <li><a href="https://arxiv.org/pdf/2003.13853.pdf"><i class="fa fa-file-pdf-o"></i></a></li>
-                                        <li><a href="https://github.com/yaxingwang/SEMIT"><i class="fa fa-github"></i></a></li>
-                                    </ul> 
-                                    
-                                <p class="authors"><strong>Authors:</strong>kai wang, Salman Khan, Abel Gonzalez-Garcia, Joost van de Weijer, Fahad Shahbaz Khan</p>
-                                <p class="conference">CVPR2020</p>
-                                <p id="SEMIT" class="abstract" style="display: none;"><strong>Abstract:</strong> In the last few years, unpaired image-to-image translation has witnessed remarkable progress.  Although the latest methods are able to generate realistic images, they crucially rely on a large number of labeled images.  Recently, some methods have tackled the challenging setting of few-shot image-to-image translation, reducing the labeled data requirements for the target domain during inference.  In this work, we go one step further and reduce the amount of required labeled data also from the source domain during training.  To do so, we propose applying semi-supervised learning via a noise-tolerant pseudo-labeling procedure.  We also apply a cycle consistency constraint to further exploit the information from unlabeled images, either from the same dataset or external.  Additionally, we propose several structural modifications to facilitate the image translation task under these circumstances.  Our  semi-supervised method for few-shot image translation, called SEMIT, achieves excellent results on four different datasets using as little as 10% of the source labels, and matches the performance of the main fully-supervised competitor using only 20% labeled data.</p>
-                                <p><a class="more-link" onclick="myFunction('SEMIT')" href="javascript:void(0);"><i id="SEMIT" class="fa fa-plus"></i> Find out more</a></p>
-                            </div><!--//item--> {% endcomment %}
-
-
 
                                                         
                         </div><!--//content-->  
