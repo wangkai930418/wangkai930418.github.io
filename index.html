@@ -72,6 +72,20 @@
                         <div class="content">
 
 
+                        <!-- PRL -->
+                        <div class="item">
+                                <h3 class="title">ACAE-REMIND for Online Continual Learning with Compressed Feature Replay</h3>
+                                <!--<h3 class="desc"> <a href="https://arxiv.org/pdf/2003.02567.pdf"> [PDF] </a> <a href="https://arxiv.org/pdf/2003.02567.pdf"> [Code] </a> </h3> -->
+                                <ul class="social list-inline">
+                                        <li><a href="https://arxiv.org/abs/2006.15176"><i class="fa fa-file-pdf-o"></i></a></li>
+                                        <li><a href="https://arxiv.org/abs/2006.15176"><i class="fa fa-github"></i></a></li>
+                                    </ul> 
+                                    
+                                <p class="authors"><strong>Authors:</strong>Kai Wang, Luis Herranz, Joost van de Weijer</p>
+                                <p class="conference"> Pattern Recognition Letters </p>
+                                <p id="BCL" class="abstract" style="display: none;"><strong>Abstract:</strong> Online continual learning aims to learn from a non-IID stream of data from a number of different tasks, where the learner is only allowed to consider data once. Methods are typically allowed to use a limited buffer to store some of the images in the stream. Recently, it was found that feature replay, where an intermediate layer representation of the image is stored (or generated) leads to superior results than image replay, while requiring less memory. Quantized exemplars can further reduce the memory usage. However, a drawback of these methods is that they use a fixed (or very intransigent) backbone network. This significantly limits the learning of representations that can discriminate between all tasks. To address this problem, we propose an auxiliary classifier auto-encoder (ACAE) module for feature replay at intermediate layers with high compression rates. The reduced memory footprint per image allows us to save more exemplars for replay. In our experiments, we conduct task-agnostic evaluation under online continual learning setting and get state-of-the-art performance on ImageNet-Subset, CIFAR100 and CIFAR10 dataset.</p>
+                                <p><a class="more-link" onclick="myFunction('BCL')" href="javascript:void(0);"><i id="BCL" class="fa fa-plus"></i> Find out more</a></p>
+                            </div><!--//item-->
 
                         <!-- ECCV2020 -->
                         <div class="item">
@@ -88,9 +102,9 @@
                                 <p><a class="more-link" onclick="myFunction('BCL')" href="javascript:void(0);"><i id="BCL" class="fa fa-plus"></i> Find out more</a></p>
                             </div><!--//item-->
 
-                        <!-- arxiv.org -->
+                        <!-- SPL -->
                         <div class="item">
-                                <h3 class="title">Simple and effective localized attribute representations for zero-shot learning</h3>
+                                <h3 class="title">On Implicit Attribute Localization for Generalized Zero-Shot Learning</h3>
                                 <!--<h3 class="desc"> <a href="https://arxiv.org/pdf/2003.02567.pdf"> [PDF] </a> <a href="https://arxiv.org/pdf/2003.02567.pdf"> [Code] </a> </h3> -->
                                 <ul class="social list-inline">
                                         <li><a href="https://arxiv.org/abs/2006.05938"><i class="fa fa-file-pdf-o"></i></a></li>
@@ -98,7 +112,7 @@
                                     </ul> 
                                     
                                 <p class="authors"><strong>Authors:</strong>Shiqi Yang, Kai Wang, Luis Herranz, Joost van de Weijer</p>
-                                <p class="conference"> arxiv.org (submitted to IEEE signal processing letters.) </p>
+                                <p class="conference"> IEEE signal processing letters </p>
                                 <p id="SELAR" class="abstract" style="display: none;"><strong>Abstract:</strong> Zero-shot learning (ZSL) aims to discriminate images from unseen classes by exploiting relations to seen classes via their semantic descriptions. Some recent papers have shown the importance of localized features together with fine-tuning the feature extractor to obtain discriminative and transferable features. However, these methods require complex attention or part detection modules to perform explicit localization in the visual space. In contrast, in this paper we propose localizing representations in the semantic/attribute space, with a simple but effective pipeline where localization is implicit. Focusing on attribute representations, we show that our method obtains state-of-the-art performance on CUB and SUN datasets, and also achieves competitive results on AWA2 dataset, outperforming generally more complex methods with explicit localization in the visual space. Our method can be implemented easily, which can be used as a new baseline for zero shot-learning. In addition, our localized representations are highly interpretable as attribute-specific heatmaps.</p>
                                 <p><a class="more-link" onclick="myFunction('SELAR')" href="javascript:void(0);"><i id="SELAR" class="fa fa-plus"></i> Find out more</a></p>
                             </div><!--//item-->
