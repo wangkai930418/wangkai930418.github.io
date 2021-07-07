@@ -71,6 +71,20 @@
                         <h2 class="heading">Publications</h2>
                         <div class="content">
 
+                        <!-- CLVISION -->
+                        <div class="item">
+                                <h3 class="title">Continual Learning in Cross-Modal Retrieval</h3>
+                                <!--<h3 class="desc"> <a href="https://arxiv.org/pdf/2003.02567.pdf"> [PDF] </a> <a href="https://arxiv.org/pdf/2003.02567.pdf"> [Code] </a> </h3> -->
+                                <ul class="social list-inline">
+                                        <li><a href="https://openaccess.thecvf.com/content/CVPR2021W/CLVision/html/Wang_Continual_Learning_in_Cross-Modal_Retrieval_CVPRW_2021_paper.html"><i class="fa fa-file-pdf-o"></i></a></li>
+                                        <li><a href="https://openaccess.thecvf.com/content/CVPR2021W/CLVision/html/Wang_Continual_Learning_in_Cross-Modal_Retrieval_CVPRW_2021_paper.html"><i class="fa fa-github"></i></a></li>
+                                    </ul> 
+                                    
+                                <p class="authors"><strong>Authors:</strong>Kai Wang, Luis Herranz, Joost van de Weijer</p>
+                                <p class="conference"> Pattern Recognition Letters </p>
+                                <p id="CLCMR" class="abstract" style="display: none;"><strong>Abstract:</strong> Multimodal representations and continual learning are two areas closely related to human intelligence. The former considers the learning of shared representation spaces where information from different modalities can be compared and integrated (we focus on cross-modal retrieval between language and visual representations). The latter studies how to prevent forgetting a previously learned task when learning a new one. While humans excel in these two aspects, deep neural networks are still quite limited. In this paper, we propose a combination of both problems into a continual cross-modal retrieval setting, where we study how the catastrophic interference caused by new tasks impacts the embedding spaces and their cross-modal alignment required for effective retrieval. We propose a general framework that decouples the training, indexing and querying stages. We also identify and study different factors that may lead to forgetting, and propose tools to alleviate it. We found that the indexing stage pays an important role and that simply avoiding reindexing the database with updated embedding networks can lead to significant gains. We evaluated our methods in two image-text retrieval datasets, obtaining significant gains with respect to the fine tuning baseline.</p>
+                                <p><a class="more-link" onclick="myFunction('CLCMR')" href="javascript:void(0);"><i id="CLCMR" class="fa fa-plus"></i> Find out more</a></p>
+                            </div><!--//item-->
 
                         <!-- PRL -->
                         <div class="item">
@@ -83,8 +97,8 @@
                                     
                                 <p class="authors"><strong>Authors:</strong>Kai Wang, Luis Herranz, Joost van de Weijer</p>
                                 <p class="conference"> Pattern Recognition Letters </p>
-                                <p id="BCL" class="abstract" style="display: none;"><strong>Abstract:</strong> Online continual learning aims to learn from a non-IID stream of data from a number of different tasks, where the learner is only allowed to consider data once. Methods are typically allowed to use a limited buffer to store some of the images in the stream. Recently, it was found that feature replay, where an intermediate layer representation of the image is stored (or generated) leads to superior results than image replay, while requiring less memory. Quantized exemplars can further reduce the memory usage. However, a drawback of these methods is that they use a fixed (or very intransigent) backbone network. This significantly limits the learning of representations that can discriminate between all tasks. To address this problem, we propose an auxiliary classifier auto-encoder (ACAE) module for feature replay at intermediate layers with high compression rates. The reduced memory footprint per image allows us to save more exemplars for replay. In our experiments, we conduct task-agnostic evaluation under online continual learning setting and get state-of-the-art performance on ImageNet-Subset, CIFAR100 and CIFAR10 dataset.</p>
-                                <p><a class="more-link" onclick="myFunction('BCL')" href="javascript:void(0);"><i id="BCL" class="fa fa-plus"></i> Find out more</a></p>
+                                <p id="ACAE" class="abstract" style="display: none;"><strong>Abstract:</strong> Online continual learning aims to learn from a non-IID stream of data from a number of different tasks, where the learner is only allowed to consider data once. Methods are typically allowed to use a limited buffer to store some of the images in the stream. Recently, it was found that feature replay, where an intermediate layer representation of the image is stored (or generated) leads to superior results than image replay, while requiring less memory. Quantized exemplars can further reduce the memory usage. However, a drawback of these methods is that they use a fixed (or very intransigent) backbone network. This significantly limits the learning of representations that can discriminate between all tasks. To address this problem, we propose an auxiliary classifier auto-encoder (ACAE) module for feature replay at intermediate layers with high compression rates. The reduced memory footprint per image allows us to save more exemplars for replay. In our experiments, we conduct task-agnostic evaluation under online continual learning setting and get state-of-the-art performance on ImageNet-Subset, CIFAR100 and CIFAR10 dataset.</p>
+                                <p><a class="more-link" onclick="myFunction('ACAE')" href="javascript:void(0);"><i id="ACAE" class="fa fa-plus"></i> Find out more</a></p>
                             </div><!--//item-->
 
                         <!-- ECCV2020 -->
