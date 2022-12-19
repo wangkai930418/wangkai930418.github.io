@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm now working as a PostDoc in [LAMP group](http://www.cvc.uab.es/) at Computer Vision Center (CVC), UAB. Before I graduate as a PhD under the supervision of Joost van de Weijer. I received my master degree in image processing from Jilin University in 2017 and the bachelar degree from Jilin University in 2014. I have worked on a wide variety of projects including Continual Learning, Multimodal Understanding, Zero-Shot Learning, Vision Transformers and Knowledge Distillation.
+I'm now working as a PostDoc in [LAMP group](http://www.cvc.uab.es/) at Computer Vision Center (CVC), UAB. Before I graduate as a PhD under the supervision of Joost van de Weijer. I received my master degree in image processing from Jilin University in 2017 and the bachelor degree from Jilin University in 2014. I have worked on a wide variety of projects including Continual Learning, Multimodal Understanding, Zero-Shot Learning, Vision Transformers and Knowledge Distillation.
 
 
 <!-- A data-driven personal website
