@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "KAI WANG"
-  avatar           : "images/kai.jpg"
+  avatar           : "kai.jpg"
   bio              : "Post-Doc in LAMP, CVC"
   location         : "Barcelona"
   employer         :
