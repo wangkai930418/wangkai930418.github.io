@@ -13,7 +13,7 @@ Education
 ======
 * B.S. in China, Jilin University, 2014
 * M.S. in China, Jilin University, 2017
-* Ph.D in CVC, Universitat Autònoma de Barcelona, 2022 (expected)
+* Ph.D in CVC, Universitat Autònoma de Barcelona, 2022
 
 Work experience
 ======
