@@ -13,8 +13,6 @@ paperurl: 'https://arxiv.org/abs/1809.00151'
 #   year={2018}
 # }'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+This paper describes the multimodal Neural Machine Translation systems developed by LIUM and CVC for WMT18 Shared Task on Multimodal Translation. This year we propose several modifications to our previous multimodal attention architecture in order to better integrate convolutional features and refine them using encoder-side information. Our final constrained submissions ranked first for English-French and second for English-German language pairs among the constrained submissions according to the automatic evaluation metric METEOR.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+[Paper link](https://arxiv.org/abs/1809.00151)
