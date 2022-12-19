@@ -2,7 +2,7 @@
 title: "LIUM-CVC Submissions for WMT18 Multimodal Translation Task"
 collection: publications
 # permalink: 
-excerpt: 'This paper describes the multimodal Neural Machine Translation systems developed by LIUM and CVC for WMT18 Shared Task on Multimodal Translation. This year we propose several modifications to our previous multimodal attention architecture in order to better integrate convolutional features and refine them using encoder-side information. Our final constrained submissions ranked first for English-French and second for English-German language pairs among the constrained submissions according to the automatic evaluation metric METEOR.'
+# excerpt: 
 date: 2018-09-01
 venue: 'WMT2018'
 paperurl: 'https://arxiv.org/abs/1809.00151'
