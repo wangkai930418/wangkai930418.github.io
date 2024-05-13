@@ -351,6 +351,50 @@
                     </td>
                     </tr>
 
+                    <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
+                        <td width="25%">
+                            <div class="one">
+                            <div class="two" id="portrait_image" style="opacity: 0;">
+                            <img src="figs/dwopp.png" width="175" alt="" style="border-style: none" align="middle">
+                            </div>
+                            <img src="figs/dwopp.png" width="175" alt="" style="border-style: none" align="middle">
+                            </div>
+                            <script type="text/javascript">
+                            function portrait_start() {
+                            document.getElementById('portrait_image').style.opacity = "1";
+                            }
+                            function portrait_stop() {
+                            document.getElementById('portrait_image').style.opacity = "0";
+                            }
+                            portrait_stop()
+                            </script>
+                        </td>
+                        <td valign="top" width="75%">
+                        <!-- <a href="./QingnanFan_files/cvpr_2023.pdf"> -->
+                                <papertitle>Positive Pair Distillation Considered Harmful: Continual Meta Metric Learning for Lifelong Object Re-Identification</papertitle>
+                        <!-- </a> -->
+                        <br>     
+                        <strong>Kai Wang*</strong>, 
+                        <a href="https://scholar.google.com/citations?user=FO7GyVwAAAAJ&hl=en">Chenshen Wu</a>, 
+                        <a href="https://scholar.google.com/citations?user=_Fk4YUcAAAAJ&hl=zh-CN">Andrew D. Bagdanov</a>, 
+                        <a href="https://mmcheng.net/xliu/">Xialei Liu</a>, 
+                        <a href="https://www.shiqiyang.xyz/">Shiqi Yang</a>, 
+                        <a href="http://lamp.cvc.uab.es/">Joost van de Weijer</a>.
+                        <br>
+                            <em>BMVC</em>, 2022 </strong><br>
+                            <a href="https://github.com/wangkai930418/DwoPP_code" target="_blank">project page</a>  
+                            /
+                            <a href="https://arxiv.org/abs/2210.01600" target="_blank">arXiv</a>
+                            <p></p>
+                            <p> To address the incremental Person ReID problem, 
+                                we apply continual meta metric learning to lifelong object re-identification. 
+                                To prevent forgetting of previous tasks, 
+                                we use knowledge distillation and explore the roles of positive and negative pairs. 
+                                Based on our observation that the distillation and metric losses are antagonistic, 
+                                we propose to remove positive pairs from distillation to robustify model updates.</p>
+                        </td>
+                        </tr>
+
 <!-- 
 
   <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
