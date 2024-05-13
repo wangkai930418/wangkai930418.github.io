@@ -395,6 +395,90 @@
                         </td>
                         </tr>
 
+
+                    <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
+                      <td width="25%">
+                          <div class="one">
+                          <div class="two" id="portrait_image" style="opacity: 0;">
+                          <img src="figs/attndistill.png" width="175" alt="" style="border-style: none" align="middle">
+                          </div>
+                          <img src="figs/attndistill.png" width="175" alt="" style="border-style: none" align="middle">
+                          </div>
+                          <script type="text/javascript">
+                          function portrait_start() {
+                          document.getElementById('portrait_image').style.opacity = "1";
+                          }
+                          function portrait_stop() {
+                          document.getElementById('portrait_image').style.opacity = "0";
+                          }
+                          portrait_stop()
+                          </script>
+                      </td>
+                      <td valign="top" width="75%">
+                      <!-- <a href="./QingnanFan_files/cvpr_2023.pdf"> -->
+                              <papertitle>Attention Distillation: self-supervised vision transformer students need more guidance</papertitle>
+                      <!-- </a> -->
+                      <br>     
+                      <strong>Kai Wang*</strong>, 
+                      <a href="https://scholar.google.com/citations?user=S1gksNwAAAAJ&hl=zh-CN&oi=sra">Fei Yang</a>, 
+                      <a href="http://lamp.cvc.uab.es/">Joost van de Weijer</a>.
+                      <br>
+                          <em>BMVC</em>, 2022 </strong><br>
+                          <a href="https://github.com/wangkai930418/attndistill" target="_blank">project page</a>  
+                          /
+                          <a href="https://arxiv.org/abs/2210.00944" target="_blank">arXiv</a>
+                          <p></p>
+                          <p> In this paper, we study knowledge distillation of self-supervised vision transformers (ViT-SSKD). 
+                            We show that directly distilling information from the crucial attention mechanism from teacher to student can significantly narrow the performance gap between both. .
+                            </p>
+                      </td>
+
+                      </tr>
+                      <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
+                        <td width="25%">
+                            <div class="one">
+                            <div class="two" id="portrait_image" style="opacity: 0;">
+                            <img src="figs/attract_disperse.png" width="175" alt="" style="border-style: none" align="middle">
+                            </div>
+                            <img src="figs/attract_disperse.png" width="175" alt="" style="border-style: none" align="middle">
+                            </div>
+                            <script type="text/javascript">
+                            function portrait_start() {
+                            document.getElementById('portrait_image').style.opacity = "1";
+                            }
+                            function portrait_stop() {
+                            document.getElementById('portrait_image').style.opacity = "0";
+                            }
+                            portrait_stop()
+                            </script>
+                        </td>
+                        <td valign="top" width="75%">
+                        <!-- <a href="./QingnanFan_files/cvpr_2023.pdf"> -->
+                                <papertitle>Attracting and Dispersing: A Simple Approach for Source-free Domain Adaptation</papertitle>
+                        <!-- </a> -->
+                        <br>     
+                        <a href="https://www.shiqiyang.xyz/">Shiqi Yang</a>, 
+                        <strong>Kai Wang*</strong>, 
+                        <a href="https://yaxingwang.netlify.app/author/yaxing-wang/">Yaxing Wang</a>, 
+                        Shangling Rui,
+                        <a href="http://lamp.cvc.uab.es/">Joost van de Weijer</a>.
+                        <br>
+                            <em>NeurIPS (Spotlight)</em>, 2022 </strong><br>
+                            <a href="https://github.com/Albert0147/AaD_SFDA" target="_blank">project page</a>  
+                            /
+                            <a href="https://arxiv.org/abs/2205.04183" target="_blank">arXiv</a>
+                            <p></p>
+                            <p> We propose a simple but effective source-free domain adaptation (SFDA) method. 
+                              Treating SFDA as an unsupervised clustering problem and following the intuition that local neighbors in feature space should have more similar predictions than other features, 
+                              we propose to optimize an objective of prediction consistency. 
+                              This objective encourages local neighborhood features in feature space to have similar predictions while features farther away in feature space have dissimilar predictions, 
+                              leading to efficient feature clustering and cluster assignment simultaneously.
+
+                            </p>
+                        </td>
+                        </tr>
+
+
 <!-- 
 
   <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
