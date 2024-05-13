@@ -689,7 +689,52 @@
                               </td>
                               </tr>
 
-
+                              <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
+                                <td width="25%">
+                                    <div class="one">
+                                    <div class="two" id="portrait_image" style="opacity: 0;">
+                                    <img src="figs/sdc.png" width="175" alt="" style="border-style: none" align="middle">
+                                    </div>
+                                    <img src="figs/sdc.png" width="175" alt="" style="border-style: none" align="middle">
+                                    </div>
+                                    <script type="text/javascript">
+                                    function portrait_start() {
+                                    document.getElementById('portrait_image').style.opacity = "1";
+                                    }
+                                    function portrait_stop() {
+                                    document.getElementById('portrait_image').style.opacity = "0";
+                                    }
+                                    portrait_stop()
+                                    </script>
+                                </td>
+                                <td valign="top" width="75%">
+                                <!-- <a href="./QingnanFan_files/cvpr_2023.pdf"> -->
+                                        <papertitle>Semantic Drift Compensation for Class-Incremental Learning</papertitle>
+                                <!-- </a> -->
+                                <br>     
+                                <a href="https://www.shiqiyang.xyz/">Lu Yu</a>, 
+                                <a href="https://scholar.google.com/citations?user=8yywECgAAAAJ&hl=zh-CN">Bartlomiej Twardowski</a>, 
+                                <a href="https://mmcheng.net/xliu/">Xialei Liu</a>, 
+                                Luis Herranz,
+                                <strong>Kai Wang*</strong>, 
+                                Yongmei Cheng, 
+                                Shangling Rui,
+                                <a href="http://lamp.cvc.uab.es/">Joost van de Weijer</a>.
+                                <br>
+                                    <em>CVPR</em>, 2020 </strong><br>
+                                    <a href="https://github.com/yulu0724/SDC-IL" target="_blank">project page</a>  
+                                    / 
+                                    <a href="https://arxiv.org/abs/2004.00440" target="_blank">arXiv</a>
+                                    <p></p>
+                                    <p>Embedding networks have the advantage that new classes can be naturally included into the network without adding new weights. 
+                                      Therefore, we study incremental learning for embedding networks. 
+                                      In addition, we propose a new method to estimate the drift, called semantic drift, 
+                                      of features and compensate for it without the need of any exemplars. 
+                                      We approximate the drift of previous tasks based on the drift that is experienced by current task data.
+                                    </p>
+                                </td>
+                                </tr>
+  
 
 
 <!-- 
