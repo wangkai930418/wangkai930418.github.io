@@ -136,6 +136,49 @@
 
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
+     
+        <tr onmouseout="portrait_stop()" onmouseover="portrait_start()"></tr>
+          <td width="25%">
+            <div class="one">
+            <div class="two" id="portrait_image" style="opacity: 0;">
+            <img src="figs/tome.png" width="175" alt="" style="border-style: none" align="middle">
+            </div>
+            <img src="figs/tome.png" width="175" alt="" style="border-style: none" align="middle">
+            </div>
+            <script type="text/javascript">
+            function portrait_start() {
+            document.getElementById('portrait_image').style.opacity = "1";
+            }
+            function portrait_stop() {
+            document.getElementById('portrait_image').style.opacity = "0";
+            }
+            portrait_stop()
+            </script>
+          </td>
+          <td valign="top" width="75%">
+              <papertitle>Token Merging for Training-Free Semantic Binding in Text-to-Image Synthesis</papertitle>
+        <br>     
+        <strong>Taihang Hu</strong>, 
+        <strong>Linxuan Li</strong>, 
+        <a href="http://lamp.cvc.uab.es/">Joost van de Weijer</a>.
+        <a href="https://gao-hongcheng.github.io/">Hongcheng Gao</a>.
+        <a href="https://sites.google.com/view/fahadkhans/home">Fahad Khan</a>.
+        <a href="https://scholar.google.com.hk/citations?user=6CIDtZQAAAAJ">Jian Yang</a>.
+        <a href="https://mmcheng.net/">Ming-Ming Cheng</a>.
+        <strong>Kai Wang*</strong>, 
+        <a href="https://yaxingwang.netlify.app/author/yaxing-wang/">Yaxing Wang</a>.
+        <br>
+            <em>NeurIPS</em>, 2024</strong><br>
+            <a href="https://wangkai930418.github.io/" target="_blank">project page</a>
+            /
+            <a href="https://wangkai930418.github.io/" target="_blank">arXiv</a>
+            <p></p>
+            <p>  In this paper, we define semantic binding as the task of associating a given object with its attribute, termed attribute binding, or linking it to other related sub-objects, referred to as object binding. 
+              We introduce a novel method called Token Merging (ToMe), which enhances semantic binding by aggregating relevant tokens into a single composite token. 
+              This ensures that the object, its attributes and sub-objects all share the same cross-attention map.</td>
+        </tr>
+
+
         <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
           <td width="25%">
             <div class="one">
