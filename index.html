@@ -138,7 +138,46 @@
 
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
-     
+        <tr onmouseout="portrait_stop()" onmouseover="portrait_start()"></tr>
+          <td width="25%">
+            <div class="one">
+            <div class="two" id="portrait_image" style="opacity: 0;">
+            <img src="figs/mcti.png" width="175" alt="" style="border-style: none" align="middle">
+            </div>
+            <img src="figs/mcti.png" width="175" alt="" style="border-style: none" align="middle">
+            </div>
+            <script type="text/javascript">
+            function portrait_start() {
+            document.getElementById('portrait_image').style.opacity = "1";
+            }
+            function portrait_stop() {
+            document.getElementById('portrait_image').style.opacity = "0";
+            }
+            portrait_stop()
+            </script>
+          </td>
+          <td valign="top" width="75%">
+              <papertitle>Multi-Class Textual-Inversion Secretly Yields a Semantic-Agnostic Classifier</papertitle>
+        <br>     
+        <strong>Kai Wang*</strong>, 
+        <a href="https://scholar.google.com/citations?user=S1gksNwAAAAJ&hl=en">Fei Yang</a>, 
+        <strong>Bogdan Raducanu</strong>, 
+        <a href="http://lamp.cvc.uab.es/">Joost van de Weijer</a>.
+        <br>
+            <em>WACV</em>, 2025</strong><br>
+            <a href="https://github.com/wangkai930418/mc_ti" target="_blank">project page</a>
+            /
+            <a href="https://arxiv.org/abs/2410.22317" target="_blank">arXiv</a>
+            <p></p>
+            <p>  We propose Multi-Class textual inversion, which includes
+              a discriminative regularization term for the token updating
+              process. Using this technique, our method MC-TI achieves
+              stronger Semantic-Agnostic Classification while preserving
+              the generation capability of these modifier tokens given only
+              few samples per category. </td>
+        </tr>
+
+
         <tr onmouseout="portrait_stop()" onmouseover="portrait_start()"></tr>
           <td width="25%">
             <div class="one">
@@ -171,7 +210,7 @@
         <a href="https://yaxingwang.netlify.app/author/yaxing-wang/">Yaxing Wang</a>.
         <br>
             <em>NeurIPS</em>, 2024</strong><br>
-            <a href="https://wangkai930418.github.io/" target="_blank">project page</a>
+            <a href="https://github.com/hutaiHang/ToMe" target="_blank">project page</a>
             /
             <a href="https://wangkai930418.github.io/" target="_blank">arXiv</a>
             <p></p>
